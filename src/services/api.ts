@@ -16,11 +16,4 @@ export class FetchApiService implements ApiService {
   }
 }
 
-export class UnexpectedResponseError extends Error {
-  name = "UnexpectedResponseError";
-  constructor(public response: Response<never>) {
-    super(`Unexpected response: ${response.status}`);
-  }
-}
-
 export default new FetchApiService(_fetch, API_PATH);
