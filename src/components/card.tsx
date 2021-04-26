@@ -62,7 +62,7 @@ export const CharityCard = ({ charity, onDonate }: CharityCardProps): JSX.Elemen
                 }}
                 disabled={amount == 0}
               >
-                Send Donation
+                Pay
               </ActionButton>
             </>
           ) : null}
