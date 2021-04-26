@@ -66,7 +66,7 @@ describe("app component", () => {
       fireEvent.click(donateButton);
       const donate100 = await waitFor(() => dom.findByText("100"));
       fireEvent.click(donate100);
-      const sendDonationButton = await waitFor(() => dom.findByText("Send Donation"));
+      const sendDonationButton = await waitFor(() => dom.findByText("Pay"));
       expect(donations.loadDonations).toHaveBeenCalledTimes(1);
       fireEvent.click(sendDonationButton);
       await waitFor(() => dom.findByText("Thank you for donating!"));
