@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": ["DOM", "ESNext"],
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES5",
+    "esModuleInterop": true
+  },
+  "include": ["src"]
+}
