@@ -77,4 +77,6 @@ const useDonationsTotal = (remoteDonations: RemoteData.RemoteData<Donation[], un
     return formatter.format(total);
   }, [remoteDonations]);
 
-export default makeApp(charitySvc, donationSvc);
+const App = makeApp(charitySvc, donationSvc);
+
+export default App;
