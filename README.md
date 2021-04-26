@@ -7,13 +7,13 @@ npm install
 npm run serve
 ```
 
+This runs a dev server at http://localhost:1234
+
 ## To run the tests
 
 ```sh
 npm test
 ```
-
-This runs a dev server at http://localhost:1234
 
 ## About this attempt
 
