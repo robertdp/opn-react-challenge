@@ -1,6 +1,6 @@
 # Omise/OPN React Challenge
 
-## To serve localy
+## To serve locally
 
 ```sh
 npm install
